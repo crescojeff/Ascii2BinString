@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.693908759/NDK_BUILD_PATH/delimiter=\:
+environment/project/com.android.toolchain.gcc.693908759/NDK_BUILD_PATH/operation=append
+environment/project/com.android.toolchain.gcc.693908759/NDK_BUILD_PATH/value=$NDK_ROOT/ndk-build
+environment/project/com.android.toolchain.gcc.693908759/NDK_ROOT/delimiter=\:
+environment/project/com.android.toolchain.gcc.693908759/NDK_ROOT/operation=replace
+environment/project/com.android.toolchain.gcc.693908759/NDK_ROOT/value=/Users/CresCoJeff/android-sdks/android-ndk-r8e
+environment/project/com.android.toolchain.gcc.693908759/PATH/delimiter=\:
+environment/project/com.android.toolchain.gcc.693908759/PATH/operation=replace
+environment/project/com.android.toolchain.gcc.693908759/PATH/value=/usr/bin\:/bin\:/usr/sbin\:/sbin\:$NDK_ROOT\:$NDK_BUILD_PATH
+environment/project/com.android.toolchain.gcc.693908759/append=true
+environment/project/com.android.toolchain.gcc.693908759/appendContributed=false

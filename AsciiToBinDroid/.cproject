@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.android.toolchain.gcc.693908759">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.693908759" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<macros>
+					<stringMacro name="NDK_BUILD_PATH" type="VALUE_TEXT" value="$NDK_ROOT/ndk-build"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.AbsoftErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.GFortranErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.G95FortranErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.LaheyFortranErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.NAGErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.PGIErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.Open64ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.errorparsers.xlc.XlcErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.autotools.core.ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.errorparsers.xlf.XLFCompilerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.IntelFortranErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.photran.core.CrayErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="AsciiToBinDroid" buildProperties="" description="" id="com.android.toolchain.gcc.693908759" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.android.toolchain.gcc.693908759.1558676784" name="/" resourcePath="">
+						<toolChain id="com.android.toolchain.gcc.602948420" name="com.android.toolchain.gcc" superClass="com.android.toolchain.gcc">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.1523401220" isAbstract="false" superClass="com.android.targetPlatform"/>
+							<builder arguments="" command="/Users/CresCoJeff/android-sdks/android-ndk-r8e/ndk-build" id="com.android.builder.868041937" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Android Builder" superClass="com.android.builder"/>
+							<tool id="com.android.gcc.compiler.1986774250" name="Android GCC Compiler" superClass="com.android.gcc.compiler">
+								<option id="com.android.gcc.option.includePath.289323273" superClass="com.android.gcc.option.includePath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\android\android-sdks\android-ndk-r8d\sources\cxx-stl\gnu-libstdc++\4.4.3\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\android\android-sdks\android-ndk-r8d\sources\cxx-stl\system\include&quot;"/>
+								</option>
+								<inputType id="com.android.gcc.inputType.659586879" superClass="com.android.gcc.inputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.android.toolchain.gcc.693908759.418005427" name="/" resourcePath="jni">
+						<toolChain id="com.android.toolchain.gcc.1786806563" name="com.android.toolchain.gcc" superClass="com.android.toolchain.gcc" unusedChildren="">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform" isAbstract="false" superClass="com.android.targetPlatform"/>
+							<tool id="com.android.gcc.compiler.2134248043" name="Android GCC Compiler" superClass="com.android.gcc.compiler.1986774250">
+								<option id="com.android.gcc.option.includePath.1591702022" superClass="com.android.gcc.option.includePath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\cygwin\usr\include&quot;"/>
+								</option>
+								<inputType id="com.android.gcc.inputType.1849705411" superClass="com.android.gcc.inputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="AsciiToBinString_test.null.1264382540" name="AsciiToBinString_test"/>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/AsciiToBinDroid"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings">
+		<doc-comment-owner id="org.eclipse.cdt.internal.ui.text.doctools.NullDocCommentOwner">
+			<path value=""/>
+		</doc-comment-owner>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.693908759;com.android.toolchain.gcc.693908759.1558676784;com.android.gcc.compiler.1986774250;com.android.gcc.inputType.659586879">
+			<autodiscovery enabled="false" problemReportingEnabled="false" selectedProfileId="com.android.AndroidPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.android.toolchain.gcc.693908759;com.android.toolchain.gcc.693908759.418005427;com.android.gcc.compiler.2134248043;com.android.gcc.inputType.1849705411">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.android.AndroidPerProjectProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
