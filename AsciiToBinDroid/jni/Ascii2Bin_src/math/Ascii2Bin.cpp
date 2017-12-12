@@ -105,7 +105,7 @@ std::string Ascii2Bin::calculateAsciiFromBinString(std::string s){
 	//First thing we need to do here is check for valid value range in binary string
 			//this would be, ideally, 65 through 122 base 10 (inclusive) but could be allowed to be
 			//32 through 126 base 10 (inclusive) so check for the latter
-			//UPDATE: we validate input value range for each char below... if any are illegal, we sey bIsIllegal flag to true
+			//UPDATE: we validate input value range for each char below... if any are illegal, we set bIsIllegal flag to true
 
 			//local control vars
 			int bIsIllegal = 0;
